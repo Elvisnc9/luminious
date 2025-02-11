@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
     ThemeProvider themeProvider = Provider.of<ThemeProvider>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Luminious',
+      title: 'luminious',
       theme:themeProvider.themeData(),
       home: const Screen()
     );
