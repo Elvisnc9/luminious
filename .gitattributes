@@ -1,0 +1,8 @@
+# Ignore native code and build files for language statistics
+android/ linguist-vendored
+ios/ linguist-vendored
+build/ linguist-vendored
+test/ linguist-vendored
+
+# Mark Dart files as the main language
+lib/ linguist-detectable=true
